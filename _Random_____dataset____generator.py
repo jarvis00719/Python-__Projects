@@ -37,3 +37,5 @@ df = pd.DataFrame(data)
  .sort_index()  # sort by state name
  .reset_index()
 )
+
+df.to_csv('Random Dataset.csv', index= False)
